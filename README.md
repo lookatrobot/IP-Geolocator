@@ -4,7 +4,7 @@
 
 This script fetches geolocation information about an IP address using APIs. It provides details such as the country, city, region, timezone, and more. The input/output is displayed in a visually appealing bright bold white color for better readability.
 
-## 🔅 Features 
+## Features 
 1. Fetches public IP address automatically.
 2. Provides geolocation details of any IP address.
 3. Bright bold white formatting for input/output.
@@ -12,7 +12,7 @@ This script fetches geolocation information about an IP address using APIs. It p
 5. Typewriter animation for a smooth output experience.
 6. Displays Google Maps link for the geolocation.
 
-## ✈ Required Dependencies:
+## Required Dependencies:
 - Install the cURL library:
 ```bash
 sudo apt-get install libcurl4-openssl-dev
@@ -21,7 +21,7 @@ sudo apt-get install libcurl4-openssl-dev
 ```bash
 sudo apt-get install nlohmann-json3-dev
 ```
-## 💾 Installation:
+## Installation:
 - Clone the repository to your local machine:
 ```bash
 git clone https://github.com/neooverride/IP-Geolocator.git
@@ -38,7 +38,7 @@ g++ ipGeolocator.cpp asciiArt.cpp -o outputfile -lcurl
 ```bash
 ./outputfile
 ```
-## 📎 Expected Output:
+## Expected Output:
 - When prompted:
 ```bash
 Do you want to use your public IP address (y/n)?
@@ -48,12 +48,12 @@ Do you want to use your public IP address (y/n)?
 
 ![Alt Text](https://github.com/x4ldr1t89z/IP-Geolocator/blob/main/image_.png)
 
-## 💿 APIs Used:
+## APIs Used:
 
 - [ipify](https://www.ipify.org/): For fetching public IP addresses.
 - [ipinfo](https://ipinfo.io/): For geolocation and IP details.
 
-## 🔧 Libraries Used:
+## Libraries Used:
 
 - [nlohmann/json](https://github.com/nlohmann/json): For JSON parsing.
 - [cURL](https://curl.se/): For making HTTP requests.
